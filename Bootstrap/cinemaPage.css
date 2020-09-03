@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.102);
+    padding: 21px 0;
+}
+nav{
+    background: transparent;
+}
+nav li a{
+    color: #FFF!important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.primary-btn-custom{
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    padding: 10px 49px!important;
+    border-radius: 1000px!important;
+    border: none;
+    outline:none;
+}
+.primary-btn-custom:hover{
+    box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+}
+.header-active{
+    background: #0a1e5e;
+    border: none;
+    animation-name: fadeInDown;
+    animation-duration: 0.75s;
+}
+.item{
+    background-color: tomato;
+    height: 100%;
+}
+#movie-list{
+    background: url('img/banner04.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#movie-carousel{
+    max-width: 80%;
+}
+#movie-detail{
+    min-height: 100vh;
+}
+
+@keyframes fadeInDown{
+    0%{
+        opacity: 0;
+        transform: translate(0,-100%);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translate(0,0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
