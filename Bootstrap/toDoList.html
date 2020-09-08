@@ -28,7 +28,7 @@
                             </form>
                             <div class="list-wrapper">
                                 <ul class="d-flex flex-column-reverse todo-list" id="taskList">
-                                    
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -55,8 +55,9 @@
         ]
         let taskContainer = $('#taskList');
         let taskForm = $('#task_form');
+        let taskList = taskContainer.children(0); //query tất cả li selector
         function createTaskElement(tasks){
-            return `<li ${tasks.completed}?'completed':''}>
+            return `<li class = "${tasks.completed ? 'completed':''}"> 
                         <div class="form-check"> <label class="form-check-label">  
                         ${tasks.title} 
                         <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
@@ -76,7 +77,13 @@
             })
             renderToUI();
         }
+        function updateTask(){
+            tasks.push({
+                completed : true,
+            })
+        }
         taskForm.submit(createTask);
+        taskList.click(updateTask);
         renderToUI();
     </script>
 </body>
