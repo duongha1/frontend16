@@ -73,12 +73,49 @@
     </header>
     <main>
         <section id="movie-list" class="d-flex justify-content-center align-items-center">
-            <div class="owl-carousel owl-theme" id="movie-carousel">
+            <div id="movie-loading" class="spinner-border text-light" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+            <div id="movie-carousel" class="owl-carousel owl-theme">
                 
             </div>
         </section>
-        <section id="movie-detail">
-
+        <section id="movie-detail" class="d-flex justify-content-center align-items-center">
+            <div>
+                <h3>Movie title</h3>
+                <p>Movie detail</p>
+            </div>
+        </section>
+        <section id="movie-info" class="py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <button class="btn btn-primary primary-btn-custom">
+                    <img src="img/angle-double-left-solid.svg" alt="">
+                    Back
+                </button>
+                <div class="time d-flex align-items-center">
+                    <p class="m-0 mr-3" id="slot_date">
+                       
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle primary-btn-custom dropdown-value" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <!-- <a href="" class="dropdown-item"></a> -->
+                          </div>
+                    </div>
+                </div>
+                <div class="time-left">
+                    <h4>05:00</h4>
+                    <p>Mins left</p>
+                </div>
+            </div>
+        </section>
+        <section id="seat-container">
+            <dic class="container">
+                <div class="seats">
+                    
+                </div>
+            </dic>
         </section>
     </main>
     <!-- Optional JavaScript -->
@@ -87,6 +124,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
     <script src="cinemaPage.js"></script>
 </body>
 </html>

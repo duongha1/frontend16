@@ -10,6 +10,7 @@ header{
     background: transparent;
     border-bottom: 1px solid rgba(255,255,255,0.102);
     padding: 21px 0;
+    z-index: 100;
 }
 nav{
     background: transparent;
@@ -25,9 +26,16 @@ nav li a{
     border-radius: 1000px!important;
     border: none;
     outline:none;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 .primary-btn-custom:hover{
     box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+}
+.primary-btn-custom img{
+    margin-right: 10px;
+    max-width: 20px;
 }
 .header-active{
     background: #0a1e5e;
@@ -41,17 +49,51 @@ nav li a{
 }
 #movie-list{
     background: url('img/banner04.jpg');
-    min-height: 100vh;
+    min-height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #movie-carousel{
     max-width: 80%;
+    transform: translate(0, 10%);
+}
+#movie-carousel img{
+    max-width: 200px;
+    max-height: 261px;
+    object-fit: cover;
 }
 #movie-detail{
-    min-height: 100vh;
+    min-height: 25vh;
+    background-color: #001232;
+    color: #FFF;
+    text-align: center;
 }
-
+#movie-detail h3{
+    font-size: 3rem;
+}
+#movie-detail p{
+    font-size: 1.5rem;
+}
+#movie-info{
+    background: #001232;
+    color: #FFF;
+}
+#seat-container{
+    background: #001232;
+    padding:50px 0px;
+}
+.seats{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.seat{
+    min-width: 12.5%;
+    margin-bottom: 20px;
+}
+.booked img{
+    filter: grayscale(1);
+}
 @keyframes fadeInDown{
     0%{
         opacity: 0;

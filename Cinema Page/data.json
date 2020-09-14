@@ -1,0 +1,249 @@
+[
+    {
+      "id": 0,
+      "name": "ANTEBELLUM",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/190x260/052b7e4a4f6d2886829431e534ef7a43/p/o/poster_bttkh_14_1__1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [18,19,20,21,22,30,31,32,33,37,38]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "TENET",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_tenet_13_1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23,24,25,26,28,39]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,23,24,25,26,28,39]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [4,12,15,23,24]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DỊ NHÂN THẾ HỆ MỚI",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/t/n/tnm_poster_shadow_1_1__1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ÁC QUỶ ĐỐI ĐẦU ",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/m/a/main-poster-aqdd_1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ĐỐI ĐẦU",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/_/i/_i_u_-_international_poster_1__4.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ĐẦU GẤU BĂC CỰC: KÌ NGHỈ VUI NHỘN",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/n/o/notn_4_poster_vie_1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "HỌC VIỆN QUÁI VẬT: DU HỌC SINH",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_hvqv_5_final_1__1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "HẦM QUỶ ",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_1_5.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "KẺ CẮP NHÂN DẠNG",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/s/o/social-poster-kcnd_1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "BIỆT ĐỘI SĂN MỒI",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_rogue_2_1__1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "MÌNH ƠI, XIN ĐỪNG QUA SÔNG!",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/m/y/my-love_poster_1__1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ĐIỆP VIÊN SIÊU LẦY ",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/m/a/main-poster_ms1_1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "BÁN ĐẢO PENINSULA",
+      "src": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_peninsula_1.jpg",
+      "slots" :[
+        {
+          "time" : 1599761590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600941590000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        },
+        {
+          "time" : 1600114390000,
+          "booked_seats" : [0,1,2,3,4,12,15,23]
+        }
+      ]
+    }
+  ]
