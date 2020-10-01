@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      canvas {
+        border: 1px solid #000;
+      }
+    </style>
+    <canvas id="my_canvas"></canvas>
+    <script>
+      var canvas = document.getElementById("my_canvas");
+      canvas.width = 200;
+      canvas.height = 200;
+      var ctx = canvas.getContext("2d");
+
+      //Gradient
+      var grd = ctx.createLinearGradient(0, 0, 200, 0); //(left x, left y, right x, right y)
+      grd.addColorStop(0, "red");
+      grd.addColorStop(0.5, "green");
+      grd.addColorStop(1, "purple");
+
+      //apply gradient
+      ctx.fillStyle = grd;
+      //ctx.fillRect(0, 0, 200, 200); //(x, y, width, height)
+
+      ctx.moveTo(50, 50); //first point of pen
+      ctx.lineTo(100, 100); //draw to another point
+      ctx.stroke(); //coloring
+
+      ctx.beginPath(); //start another line
+      ctx.arc(100, 100, 50, 0, 2 * Math.PI); //draw circle(center point x, center point y, radius, start, end)
+      ctx.strokeStyle = grd;
+      ctx.fill();
+      ctx.lineWidth = 2;
+      ctx.stroke(); //coloring
+    </script>
+  </body>
+</html>
